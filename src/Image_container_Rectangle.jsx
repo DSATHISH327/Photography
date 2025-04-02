@@ -43,7 +43,7 @@ import Image_41 from './assets/Image-s-11.jpg'
 import './Image_Rectangle.css';
 const Image_container_Rectangle = () => {
   return (
-    <div>
+    <div className='container'>
       <div className='image-grid'>
         <img src={Image_1} alt="Image-1" className='Image' />
         <img src={Image_7} alt="Image-1" className='Image' />

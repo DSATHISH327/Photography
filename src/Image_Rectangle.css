@@ -5,10 +5,10 @@
   }
   
   .image-grid img {
-    width: 360px;
-    height: 200px;
+    width: 480px;
+    height: 340px;
     margin: 10px;
-    border: 2px solid;
+    border: 1.5px solid;
     border-radius: 8px;
     margin: 20px 0px 20px 30px;
   }
@@ -21,7 +21,7 @@
   }
   .Single_Image_Container img{
     width: 1000px;
-    border: 2px solid;
+    border: 1px solid;
     height: 600px;
     margin: 20px 0px 20px 0px;
     border-radius: 8px;

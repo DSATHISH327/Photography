@@ -1,0 +1,19 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+.large-icon{
+    font-size: 30px;
+    color: rgb(27, 26, 26);
+    cursor: pointer;
+}
+.large-icon:hover{
+    font-size: 30px;
+    color: rgb(20, 240, 20);
+    cursor: pointer;
+}
+.contact-us{
+    border: 2px solid;
+    border-radius: 20px;
+}

@@ -62,12 +62,12 @@ import Image_61 from './assets/Image-q-20.jpg'
 import Image_62 from './assets/Image-q-21.jpg'
 import Image_63 from './assets/Image-q-23.jpg'
 import Image_64 from './assets/Image-q-24.jpg'
-
+import Award from './assets/award.jpg'
 import './Image_Rectangle.css';
 const Image_container_Rectangle = () => {
   return (
     <div className='container'>
-      <div className='image-grid'>
+      <div className='image-grid' >
         <img src={Image_1} alt="Image-1" className='Image' />
         <img src={Image_7} alt="Image-1" className='Image' />
         <img src={Image_3} alt="Image-1"  className='Image' />
@@ -99,7 +99,7 @@ const Image_container_Rectangle = () => {
         <img src={Image_29} alt="Image-1"  className='Image'/>
         <img src={Image_30} alt="Image-1"  className='Image'/>
       </div>
-      <div className='Square-Image-Container'>
+      <div className='Square-Image-Container' id='Square'>
         <img src={Image_44} alt="Image-1"  className='Image' />
         <img src={Image_43} alt="Image-1"  className='Image' />
         <img src={Image_45} alt="Image-1"  className='Image'/>
@@ -123,7 +123,7 @@ const Image_container_Rectangle = () => {
         <img src={Image_63} alt="Image-1"  className='Image'/>
         <img src={Image_64} alt="Image-1"  className='Image'/>
       </div>
-      <div className='Single_Image_Container'>
+      <div className='Single_Image_Container' id='landscape'>
         <img src={Image_31} alt="Image-1"  className='Image' />
         <img src={Image_32} alt="Image-1"  className='Image' />
         <img src={Image_33} alt="Image-1"  className='Image'/>
@@ -135,6 +135,9 @@ const Image_container_Rectangle = () => {
         <img src={Image_39} alt="Image-1"  className='Image'/>
         <img src={Image_40} alt="Image-1"  className='Image'/>
         <img src={Image_41} alt="Image-1"  className='Image'/>
+      </div>
+      <div className='award' id='Awards' >
+        <img src={Award} alt="Best Photography Award" className='award_image' title='Best Photography Award At VIVA VVIT 2021-22' />
       </div>
     </div>
   )

@@ -6,7 +6,7 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Contactus = () => {
   return (
-    <div className="contact-us">
+    <div className="contact-us" id="contactus">
     <ul>
       <li>
         <a href="https://wa.me/+919347742603" target="_blank" rel="noopener noreferrer"aria-label="WhatsApp"><FontAwesomeIcon icon={faWhatsapp} className="large-icon" /></a>

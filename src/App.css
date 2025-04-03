@@ -1,0 +1,8 @@
+video{
+    float: left;
+    height: 180px;
+    width: 180px;
+    margin: 70px 0px 0px 1350px;
+    position: fixed;
+    border-radius: 50%;
+}

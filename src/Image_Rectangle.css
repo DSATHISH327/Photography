@@ -40,6 +40,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 10px;
+    margin-left: 20px;
   }
   .Square-Image-Container img{
     width: 350px;
@@ -53,7 +54,22 @@
     overflow: hidden; 
     max-width: 100%;
   }
-
+  .award{
+    height: 900px;
+    width: 100%;
+    border: 2px solid;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .award_image{
+    height: 800px;
+    margin: 40px 0px 40px 70px;
+    width: 90%;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 20px;
+  }
   @media (max-width: 768px) {
     .image-grid {
       grid-template-columns: repeat(1, 1fr);

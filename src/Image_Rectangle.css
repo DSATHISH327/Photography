@@ -11,6 +11,16 @@
     border: 1.5px solid;
     border-radius: 8px;
     margin: 20px 0px 20px 30px;
+    transform: scale(0.9);
+  }
+  .image-grid img :hover{
+    width: 370px;
+    height: 260px;
+    margin: 10px;
+    border: 1.5px solid;
+    border-radius: 8px;
+    margin: 20px 0px 20px 30px;
+    transform: scale(1.0);
   }
   .Single_Image_Container{
     display: grid;
@@ -26,13 +36,39 @@
     margin: 20px 0px 20px 0px;
     border-radius: 8px;
   }
+  .Square-Image-Container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+  }
+  .Square-Image-Container img{
+    width: 400px;
+    height: 650px;
+    margin: 10px;
+    border: 1.5px solid;
+    border-radius: 8px;
+    margin: 20px 0px 20px 70px;
+  }
   .container{
     overflow: hidden; 
     max-width: 100%;
   }
+
   @media (max-width: 768px) {
     .image-grid {
       grid-template-columns: repeat(1, 1fr);
+    }
+    .Single_Image_Container img{
+      width: 600px;
+      border: 0.6px solid;
+      height: 350px;
+      margin: 20px 0px 20px 0px;
+      border-radius: 8px;
+    }
+    .Square-Image-Container{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); 
+      gap: 10px;
     }
   }
   

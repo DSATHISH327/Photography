@@ -40,6 +40,29 @@ import Image_38 from './assets/Image-s-8.jpg'
 import Image_39 from './assets/Image-s-9.jpg'
 import Image_40 from './assets/Image-s-10.jpg'
 import Image_41 from './assets/Image-s-11.jpg'
+import Image_42 from './assets/Image-q-1.jpg'
+import Image_43 from './assets/Image-q-2.jpg'
+import Image_44 from './assets/Image-q-3.jpg'
+import Image_45 from './assets/Image-q-4.jpg'
+import Image_46 from './assets/Image-q-5.jpg'
+import Image_47 from './assets/Image-q-6.jpg'
+import Image_48 from './assets/Image-q-7.jpg'
+import Image_49 from './assets/Image-q-8.jpg'
+import Image_50 from './assets/Image-q-9.jpg'
+import Image_51 from './assets/Image-q-10.jpg'
+import Image_52 from './assets/Image-q-11.jpg'
+import Image_53 from './assets/Image-q-12.jpg'
+import Image_54 from './assets/Image-q-13.jpg'
+import Image_55 from './assets/Image-q-14.jpg'
+import Image_56 from './assets/Image-q-15.jpg'
+import Image_57 from './assets/Image-q-16.jpg'
+import Image_59 from './assets/Image-q-18.jpg'
+import Image_60 from './assets/Image-q-19.jpg'
+import Image_61 from './assets/Image-q-20.jpg'
+import Image_62 from './assets/Image-q-21.jpg'
+import Image_63 from './assets/Image-q-23.jpg'
+import Image_64 from './assets/Image-q-24.jpg'
+
 import './Image_Rectangle.css';
 const Image_container_Rectangle = () => {
   return (
@@ -75,6 +98,30 @@ const Image_container_Rectangle = () => {
         <img src={Image_28} alt="Image-1"  className='Image'/>
         <img src={Image_29} alt="Image-1"  className='Image'/>
         <img src={Image_30} alt="Image-1"  className='Image'/>
+      </div>
+      <div className='Square-Image-Container'>
+        <img src={Image_44} alt="Image-1"  className='Image' />
+        <img src={Image_43} alt="Image-1"  className='Image' />
+        <img src={Image_45} alt="Image-1"  className='Image'/>
+        <img src={Image_46} alt="Image-1"  className='Image'/>
+        <img src={Image_47} alt="Image-1"  className='Image'/>
+        <img src={Image_48} alt="Image-1"  className='Image'/>
+        <img src={Image_49} alt="Image-1"  className='Image'/>
+        <img src={Image_50} alt="Image-1"  className='Image'/>
+        <img src={Image_51} alt="Image-1"  className='Image'/>
+        <img src={Image_52} alt="Image-1"  className='Image'/>
+        <img src={Image_53} alt="Image-1"  className='Image'/>
+        <img src={Image_42} alt="Image-1"  className='Image' />
+        <img src={Image_54} alt="Image-1"  className='Image' />
+        <img src={Image_55} alt="Image-1"  className='Image'/>
+        <img src={Image_56} alt="Image-1"  className='Image'/>
+        <img src={Image_57} alt="Image-1"  className='Image'/>
+        <img src={Image_59} alt="Image-1"  className='Image'/>
+        <img src={Image_60} alt="Image-1"  className='Image'/>
+        <img src={Image_61} alt="Image-1"  className='Image'/>
+        <img src={Image_62} alt="Image-1"  className='Image'/>
+        <img src={Image_63} alt="Image-1"  className='Image'/>
+        <img src={Image_64} alt="Image-1"  className='Image'/>
       </div>
       <div className='Single_Image_Container'>
         <img src={Image_31} alt="Image-1"  className='Image' />

@@ -5,4 +5,18 @@ video{
     margin: 70px 0px 0px 1350px;
     position: fixed;
     border-radius: 50%;
+    z-index: 10;
+}
+body{
+    background-color: #FFD6FF;
+}
+.arrow-icon{
+    height: 60px;
+    border: 1px solid;
+    width: 60px;
+    margin: 608px 0px 0px 1500px;
+    position: fixed;
+    z-index: 10;
+    border-radius: 20px;
+    background-color: blanchedalmond;
 }

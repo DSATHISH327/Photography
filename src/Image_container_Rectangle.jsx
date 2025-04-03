@@ -86,11 +86,11 @@ const Image_container_Rectangle = () => {
         <img src={Image_16} alt="Image-1"  className='Image' />
         <img src={Image_17} alt="Image-1"  className='Image' />
         <img src={Image_18} alt="Image-1"  className='Image' />
+        <img src={Image_23} alt="Image-1"  className='Image'/>
         <img src={Image_19} alt="Image-1"  className='Image'/>
         <img src={Image_20} alt="Image-1"  className='Image' />
         <img src={Image_21} alt="Image-1"  className='Image' />
         <img src={Image_22} alt="Image-1"  className='Image'/>
-        <img src={Image_23} alt="Image-1"  className='Image'/>
         <img src={Image_24} alt="Image-1"  className='Image'/>
         <img src={Image_25} alt="Image-1"  className='Image'/>
         <img src={Image_26} alt="Image-1"  className='Image'/>
@@ -125,13 +125,13 @@ const Image_container_Rectangle = () => {
       </div>
       <div className='Single_Image_Container' id='landscape'>
         <img src={Image_31} alt="Image-1"  className='Image' />
-        <img src={Image_32} alt="Image-1"  className='Image' />
         <img src={Image_33} alt="Image-1"  className='Image'/>
-        <img src={Image_34} alt="Image-1"  className='Image'/>
         <img src={Image_35} alt="Image-1"  className='Image'/>
         <img src={Image_36} alt="Image-1"  className='Image'/>
         <img src={Image_37} alt="Image-1"  className='Image'/>
+        <img src={Image_32} alt="Image-1"  className='Image' />
         <img src={Image_38} alt="Image-1"  className='Image'/>
+        <img src={Image_34} alt="Image-1"  className='Image'/>
         <img src={Image_39} alt="Image-1"  className='Image'/>
         <img src={Image_40} alt="Image-1"  className='Image'/>
         <img src={Image_41} alt="Image-1"  className='Image'/>

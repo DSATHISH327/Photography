@@ -14,7 +14,8 @@ const Header = () => {
       </ul>
       </div>
       <div className='header'>
-        <p>Desaboina Satish</p>
+        <p>Desaboina Satish...</p>
+        <p className='quotation'>I see an Object as an Ornament through a Lens........</p>
       </div>
     </>
   )

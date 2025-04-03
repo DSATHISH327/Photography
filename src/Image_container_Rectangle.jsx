@@ -63,6 +63,23 @@ import Image_62 from './assets/Image-q-21.jpg'
 import Image_63 from './assets/Image-q-23.jpg'
 import Image_64 from './assets/Image-q-24.jpg'
 import Award from './assets/award.jpg'
+import Image1 from './assets/Project/image-q-1.jpg'
+import Image2 from './assets/Project/image-q-2.jpg'
+import Image3 from './assets/Project/image-q-3.jpg'
+import Image4 from './assets/Project/image-q-4.jpg'
+import Image5 from './assets/Project/image-q-5.jpg'
+import Image6 from './assets/Project/image-q-6.jpg'
+import Image7 from './assets/Project/image-q-7.jpg'
+import Image8 from './assets/Project/image-q-8.jpg'
+import Image9 from './assets/Project/image-q-9.jpg'
+import IMAge1 from './assets/Project/image-s-1.jpg'
+import IMAge2 from './assets/Project/image-s-2.jpg'
+import IMAge3 from './assets/Project/image-s-3.jpg'
+import IMAge4 from './assets/Project/image-s-4.jpg'
+import IMAge5 from './assets/Project/image-s-5.jpg'
+import IMAge6 from './assets/Project/image-s-6.jpg'
+import IMAge7 from './assets/Project/image-s-7.jpg'
+import IMAge8 from './assets/Project/image-s-8.jpg'
 import './Image_Rectangle.css';
 const Image_container_Rectangle = () => {
   return (
@@ -121,7 +138,18 @@ const Image_container_Rectangle = () => {
         <img src={Image_61} alt="Image-1"  className='Image'/>
         <img src={Image_62} alt="Image-1"  className='Image'/>
         <img src={Image_63} alt="Image-1"  className='Image'/>
+        <img src={IMAge4} alt="Image-1"  className='Image'/>
         <img src={Image_64} alt="Image-1"  className='Image'/>
+        <img src={Image1} alt="Image-1"  className='Image' />
+        <img src={Image2} alt="Image-1"  className='Image'/>
+        <img src={Image3} alt="Image-1"  className='Image'/>
+        <img src={Image4} alt="Image-1"  className='Image'/>
+        <img src={Image5} alt="Image-1"  className='Image'/>
+        <img src={Image6} alt="Image-1"  className='Image'/>
+        <img src={Image8} alt="Image-1"  className='Image'/>
+        <img src={Image7} alt="Image-1"  className='Image'/>
+        <img src={Image8} alt="Image-1"  className='Image'/>
+        
       </div>
       <div className='Single_Image_Container' id='landscape'>
         <img src={Image_31} alt="Image-1"  className='Image' />
@@ -135,6 +163,12 @@ const Image_container_Rectangle = () => {
         <img src={Image_39} alt="Image-1"  className='Image'/>
         <img src={Image_40} alt="Image-1"  className='Image'/>
         <img src={Image_41} alt="Image-1"  className='Image'/>
+        <img src={IMAge1} alt="Image-1"  className='Image' />
+        <img src={IMAge2} alt="Image-1"  className='Image'/>
+        <img src={IMAge3} alt="Image-1"  className='Image'/>
+        <img src={IMAge5} alt="Image-1"  className='Image'/>
+        <img src={IMAge6} alt="Image-1"  className='Image' />
+        <img src={IMAge7} alt="Image-1"  className='Image'/>
       </div>
       <div className='award' id='Awards' >
         <img src={Award} alt="Best Photography Award" className='award_image' title='Best Photography Award At VIVA VVIT 2021-22' />

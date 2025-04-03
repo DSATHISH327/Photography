@@ -6,6 +6,7 @@ import Contactus from './Contactus'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import video from './assets/My logo.mp4'
+import Contact_form from './Contact_form'
 function App() {
 
   return (
@@ -20,9 +21,8 @@ function App() {
       </div>
       <Header></Header>
       <ImageContainerRectangle></ImageContainerRectangle>
+      <Contact_form></Contact_form>
       <Contactus></Contactus>
-
-
     </>
   )
 }

@@ -79,7 +79,7 @@ a:hover {
   .quotation {
     font-size: 10px;
     color: aliceblue;
-    padding: 440px 10px 10px 10px;
+    padding: 300px 10px 10px 10px;
   }
 
   .header {
@@ -87,9 +87,9 @@ a:hover {
     background-repeat: no-repeat;
     height: auto;
     width: 100%;
-    background-size:auto;
+    background-size:cover;
     background-position: center;
-    background-image: url("./assets/Mobil-view.webp");
+    background-image: url("./assets/Mobile-view.jpg");
     box-sizing: border-box;
 
   }

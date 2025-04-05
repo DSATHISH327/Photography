@@ -17,3 +17,22 @@ ul{
     border: 2px solid;
     border-radius: 20px;
 }
+@media (max-width: 768px) {
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .large-icon{
+        font-size: 15px;
+        color: rgb(27, 26, 26);
+        cursor: pointer;
+        margin: 3px;
+    }
+    .large-icon:hover{
+        font-size: 15px;
+        color: rgb(20, 240, 20);
+        cursor: pointer;
+        margin: 3px;
+    }
+}

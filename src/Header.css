@@ -85,7 +85,9 @@ a:hover {
   .header {
     border-radius: 0px 0px 60px 60px;
     background-repeat: no-repeat;
-    background-size: cover;
+    height: auto;
+    width: 100%;
+    background-size:auto;
     background-position: center;
     background-image: url("./assets/Mobil-view.webp");
     box-sizing: border-box;

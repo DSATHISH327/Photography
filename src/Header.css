@@ -72,7 +72,7 @@ a:hover {
 
   p {
     font-size: 28px;
-    padding: 0px 10px 10px 10px;
+    padding: 20px 0px 10px 0px;
     color: aliceblue;
   }
 
@@ -85,9 +85,7 @@ a:hover {
   .header {
     border-radius: 0px 0px 60px 60px;
     background-repeat: no-repeat;
-    height: auto;
-    width: 100%;
-    background-size:cover;
+    background-size:auto;
     background-position: center;
     background-image: url("./assets/Mobile-view.jpg");
     box-sizing: border-box;

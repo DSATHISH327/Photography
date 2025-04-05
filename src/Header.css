@@ -1,50 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap');
-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+
+/* Navbar */
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 0;
 }
-li{
-    font-size: 30px;
-    list-style-type: none;
+
+li {
+  font-size: 24px;
+  list-style-type: none;
+  margin: 10px;
 }
-.header{
-    height: 800px;
-    width: 99%;
-    border-radius: 0px 0px 140px 140px;
-    border: 2px solid;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-image: url("./assets/background-image.jpg");
-    padding: 4px;
-    margin: 5px 0px 5px 0px;
+
+/* Navbar wrapper */
+.navbar {
+  border: 0.5px solid;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
 }
-p{
-    color:rgb(252, 245, 245);
-    padding: 30px 0px 0px 110px;
-    font-size: 50px;
-    font-family: "Great Vibes", cursive;
-    font-weight: 300;
-    font-style: normal;
+
+/* Header section */
+.header {
+  height: auto;
+  width: 100%;
+  border-radius: 0px 0px 100px 100px;
+  border: 2px solid;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("./assets/background-image.jpg");
+  padding: 20px;
+  margin: 5px 0;
+  box-sizing: border-box;
 }
-.navbar{
-    border: 0.5px solid;
-    border-radius: 20px;
+
+/* Main heading */
+p {
+  color: rgb(252, 245, 245);
+  padding: 30px 10px 10px 10px;
+  font-size: 40px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
 }
-a{
-    text-decoration: none;
-    color:black;
+
+/* Quotation under heading */
+.quotation {
+  color: rgb(252, 245, 245);
+  padding: 10px 20px;
+  font-size: 24px;
+  font-family: "Great Vibes", cursive;
+  letter-spacing: 1.5px;
+  word-spacing: 3px;
+  font-weight: 100;
+  font-style: normal;
+  text-align: center;
 }
-a:hover{
-    color: rgb(0, 55, 255);
+
+/* Anchor styling */
+a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
 }
-.quotation{
-    color:rgb(252, 245, 245);
-    padding: 0px 0px 0px 150px;
-    font-size: 30px;
-    font-family: "Great Vibes", cursive;
-    letter-spacing: 2px;
-    word-spacing: 4px;
-    font-weight: 100;
-    font-style: normal;
+
+a:hover {
+  color: rgb(0, 55, 255);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  li {
+    font-size: 20px;
+    margin: 8px;
+  }
+
+  p {
+    font-size: 28px;
+    padding: 20px 10px;
+  }
+
+  .quotation {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .header {
+    border-radius: 0px 0px 60px 60px;
+  }
 }

@@ -26,34 +26,28 @@ li {
 
 /* Header section */
 .header {
-  height: auto;
+  height: 600px;
   width: 100%;
   border-radius: 0px 0px 100px 100px;
   border: 2px solid;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("./assets/background-image.jpg");
-  padding: 20px;
-  margin: 5px 0;
+  background-image: url("https://backend.orbitvu.com/sites/default/files/image/lens-cover.webp");
   box-sizing: border-box;
 }
-
-/* Main heading */
 p {
-  color: rgb(252, 245, 245);
-  padding: 30px 10px 10px 10px;
+  color: rgb(19, 19, 19);
+  padding: 0px 10px 10px 0px;
   font-size: 40px;
   font-family: "Great Vibes", cursive;
   font-weight: 300;
   font-style: normal;
   text-align: center;
 }
-
-/* Quotation under heading */
 .quotation {
-  color: rgb(252, 245, 245);
-  padding: 10px 20px;
+  color: rgb(19, 19, 19);
+  padding: 400px 20px 0px 20px;
   font-size: 24px;
   font-family: "Great Vibes", cursive;
   letter-spacing: 1.5px;

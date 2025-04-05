@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap');
-
-/* Navbar */
 ul {
   display: flex;
   flex-direction: row;
@@ -9,22 +7,17 @@ ul {
   padding: 10px;
   margin: 0;
 }
-
 li {
   font-size: 24px;
   list-style-type: none;
   margin: 10px;
 }
-
-/* Navbar wrapper */
 .navbar {
   border: 0.5px solid;
   border-radius: 20px;
   padding: 10px;
   margin: 10px;
 }
-
-/* Header section */
 .header {
   height: 600px;
   width: 100%;
@@ -56,8 +49,6 @@ p {
   font-style: normal;
   text-align: center;
 }
-
-/* Anchor styling */
 a {
   text-decoration: none;
   color: black;
@@ -68,8 +59,12 @@ a:hover {
   color: rgb(0, 55, 255);
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
   li {
     font-size: 20px;
     margin: 8px;
@@ -78,14 +73,22 @@ a:hover {
   p {
     font-size: 28px;
     padding: 0px 10px 10px 10px;
+    color: aliceblue;
   }
 
   .quotation {
-    font-size: 18px;
-    padding: 30px 10px 10px 10px;
+    font-size: 10px;
+    color: aliceblue;
+    padding: 440px 10px 10px 10px;
   }
 
   .header {
     border-radius: 0px 0px 60px 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./assets/Mobil-view.webp");
+    box-sizing: border-box;
+
   }
 }

@@ -75,14 +75,11 @@ import Image9 from './assets/Project/image-q-9.jpg'
 import IMAge1 from './assets/Project/image-s-1.jpg'
 import IMAge2 from './assets/Project/image-s-2.jpg'
 import IMAge3 from './assets/Project/image-s-3.jpg'
-import IMage9 from './assets/image-s-12.jpg'
 import IMAge4 from './assets/Project/image-s-4.jpg'
 import IMAge5 from './assets/Project/image-s-5.jpg'
-import IMage11 from './assets/image-s-14.jpg'
 import IMAge6 from './assets/Project/image-s-6.jpg'
 import IMAge7 from './assets/Project/image-s-7.jpg'
 import IMAge8 from './assets/Project/image-s-8.jpg'
-import IMAge10 from './assets/image-s-13.jpg'
 
 import './Image_Rectangle.css';
 const Image_container_Rectangle = () => {
@@ -166,12 +163,9 @@ const Image_container_Rectangle = () => {
         <img src={Image_39} alt="Image-1"  className='Image'/>
         <img src={Image_40} alt="Image-1"  className='Image'/>
         <img src={Image_41} alt="Image-1"  className='Image'/>
-        <img src={IMage9} alt="Image-1"  className='Image'/>
         <img src={IMAge1} alt="Image-1"  className='Image' />
         <img src={IMAge2} alt="Image-1"  className='Image'/>
-        <img src={IMage11} alt="Image-1"  className='Image'/>
         <img src={IMAge3} alt="Image-1"  className='Image'/>
-        <img src={IMAge10} alt="Image-1"  className='Image' />
         <img src={IMAge5} alt="Image-1"  className='Image'/>
         <img src={IMAge6} alt="Image-1"  className='Image' />
         <img src={IMAge7} alt="Image-1"  className='Image'/>

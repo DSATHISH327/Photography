@@ -1,33 +1,76 @@
-<!-- JSON-LD Structured Data (SEO Boost) -->
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Satish Photography",
-    "image": "https://photography-alpha-three.vercel.app/path-to-your-image.jpg",
-    "description": "Satish Photography offers expert wedding, engagement, and baby photoshoots. Capture unforgettable memories with our professional services.",
-    "url": "https://photography-alpha-three.vercel.app/",
-    "telephone": "+919347742603",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "KPHB COLONY",
-      "addressRegion": "Hyderabad",
-      "addressCountry": "IN"
-    },
-    "sameAs": [
-      "https://www.instagram.com/satish_tarak_fan/",
-      "https://www.facebook.com/sathishyadav.desiboinasathish",
-      "https://github.com/DSATHISH327"
-    ]
-  }
-  </script>
-  
-  <!-- ✅ Google Analytics Tag should be outside the JSON-LD block -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CSJJEX4LZQ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-CSJJEX4LZQ');
-  </script>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Primary Meta Tags -->
+    <title>Satish Photography | Wedding, Engagement & Baby Photoshoots</title>
+    <meta name="description" content="Satish Photography offers expert wedding, engagement, and baby photoshoots. Capture unforgettable memories with our professional services. Book now!">
+    <meta name="keywords" content="photography, wedding photography, engagement photoshoot, baby photography, professional photographer, portrait photography, event photography, candid photography">
+    <meta name="author" content="Satish Photography">
+    <meta name="robots" content="index, follow">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Preload Important Assets -->
+    <link rel="preload" href="/src/main.jsx" as="script">
+    <link rel="preload" href="https://photography-alpha-three.vercel.app/path-to-your-image.jpg" as="image">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Satish Photography | Wedding, Engagement & Baby Photoshoots">
+    <meta property="og:description" content="Satish Photography offers expert wedding, engagement, and baby photoshoots. Capture unforgettable memories with our professional services. Book now!">
+    <meta property="og:url" content="https://photography-alpha-three.vercel.app/">
+    <meta property="og:image" content="https://photography-alpha-three.vercel.app/path-to-your-image.jpg">
+    <meta property="og:site_name" content="Satish Photography">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Satish Photography | Wedding, Engagement & Baby Photoshoots">
+    <meta name="twitter:description" content="Satish Photography offers expert wedding, engagement, and baby photoshoots. Capture unforgettable memories with our professional services. Book now!">
+    <meta name="twitter:image" content="https://photography-alpha-three.vercel.app/path-to-your-image.jpg">
+    <meta name="twitter:site" content="@YourTwitterHandle">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://photography-alpha-three.vercel.app/">
+
+    <!-- Favicon (With Accessibility) -->
+    <link rel="icon" href="https://photography-alpha-three.vercel.app/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://photography-alpha-three.vercel.app/favicon.ico">
+
+    <!-- JSON-LD Structured Data (SEO Boost) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Satish Photography",
+      "image": "https://photography-alpha-three.vercel.app/path-to-your-image.jpg",
+      "description": "Satish Photography offers expert wedding, engagement, and baby photoshoots. Capture unforgettable memories with our professional services.",
+      "url": "https://photography-alpha-three.vercel.app/",
+      "telephone": "+919347742603",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "KPHB COLONY",
+        "addressRegion": "Hyderabad",
+        "addressCountry": "IN"
+      },
+      "sameAs": [
+        "https://www.instagram.com/satish_tarak_fan/",
+        "https://www.facebook.com/sathishyadav.desiboinasathish",
+        "https://github.com/DSATHISH327"
+      ]
+    }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CSJJEX4LZQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-CSJJEX4LZQ');
+    </script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

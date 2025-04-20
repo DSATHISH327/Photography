@@ -86,15 +86,15 @@ const Image_container_Rectangle = () => {
   return (
     <div className='container'>
       <div className='image-grid' >
-        <img src={Image_1} alt="Image-1" className='Image' />
-        <img src={Image_7} alt="Image-1" className='Image' />
-        <img src={Image_3} alt="Image-1"  className='Image' />
-        <img src={Image_4} alt="Image-1"  className='Image' />
-        <img src={Image_5} alt="Image-1"  className='Image' />
-        <img src={Image_6} alt="Image-1"  className='Image' />
-        <img src={Image_2} alt="Image-1"  className='Image'/>
-        <img src={Image_8} alt="Image-1"  className='Image' />
-        <img src={Image_9} alt="Image-1"  className='Image'  />
+        <img src={Image_1} alt="Vignan LARA College Volleyball Ground" className='Image' title='Vignan LARA College Volleyball Ground' />
+        <img src={Image_7} alt="A sun rays are coming from Sun" className='Image'title='A sun rays are coming from Sun' />
+        <img src={Image_3} alt="Vignan LARA Block"  className='Image' title='Vignan LARA Block' />
+        <img src={Image_4} alt="My Hand writing in a notes"  className='Image' title='My Hand writing in a notes' />
+        <img src={Image_5} alt="The water droplets are coming through the tap"  className='Image' title='The water droplets are coming through the tap' />
+        <img src={Image_6} alt="A rose having a petals droplets & fog is happend in a rose"  className='Image' title='A rose having a petals droplets & fog is happend in a rose' />
+        <img src={Image_2} alt="Vignan LARA East side"  className='Image' title='Vignan LARA East side'/>
+        <img src={Image_8} alt="Inside a river a small turbalance is happened middle of the river"  className='Image' title='Inside a river a small turbalance is happened middle of the river' />
+        <img src={Image_9} alt="One day evening clouds are covered and rays are coming from the sun"  className='Image' title='One day evening clouds are covered and rays are coming from the sun'  />
         <img src={Image_10} alt="Image-1"  className='Image' />
         <img src={Image_11} alt="Image-1"  className='Image' />
         <img src={Image_12} alt="Image-1"  className='Image' />
